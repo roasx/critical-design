@@ -20,4 +20,33 @@ a:hover {
 h1 {
 	color: black;
 	font-size: 48px;
+	text-align: center;
+}
+.text {
+	width: 50%;
+	margin: 96px auto;
+}
+.text * {
+	display: inline-block;
+	width: 48%;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+h2 {
+	color: dodgerblue;
+	font-size: 40px;
+	text-align: left;
+}
+h3 {
+	font-size: 16px;
+	text-align: right;
+}
+h3 a:link,
+h3 a:visited {
+	color: dodgerblue;
+	text-decoration: none;
+}
+h3 a:hover {
+	color: white;
 }
